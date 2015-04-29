@@ -9,6 +9,13 @@
   <url>http://maven.apache.org</url>
 
     <properties>
+
+        <!--
+        skipping tests by default with the ability to re-enable tests
+        http://maven.apache.org/surefire/maven-surefire-plugin/examples/skipping-test.html
+        -->
+        <skipTests>true</skipTests>
+
         <junit.version>4.11</junit.version>
     </properties>
 
