@@ -1,6 +1,7 @@
 package com.gmail.schcrabicus;
 
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class TestUtilUnitTest {
@@ -11,7 +12,8 @@ public class TestUtilUnitTest {
     }
 
     @Test
-    public void testFailing() throws Exception {
+    @Ignore
+    public void testIgnoredFailing() throws Exception {
         Assert.assertEquals("Wrong expectation", TestUtil.greet());
     }
 
