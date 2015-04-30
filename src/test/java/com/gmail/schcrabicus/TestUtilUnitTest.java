@@ -18,6 +18,11 @@ public class TestUtilUnitTest {
     }
 
     @Test
+    public void testFailing() throws Exception {
+        Assert.assertEquals("Wrong expectation", TestUtil.greet());
+    }
+
+    @Test
     public void testPassing() throws Exception {
         Assert.assertEquals("Hello World", TestUtil.greet());
     }
