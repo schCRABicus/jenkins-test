@@ -9,4 +9,9 @@ public class TestUtilUnitTest {
     public void testGreet() throws Exception {
         Assert.assertEquals("Hello World", TestUtil.greet());
     }
+
+    @Test
+    public void testFailing() throws Exception {
+        Assert.assertEquals("Wrong expectation", TestUtil.greet());
+    }
 }
