@@ -18,9 +18,9 @@ public class TestUtilUnitTest {
     }
 
     @Test
-    public void testFixedFailing() throws Exception {
-        //Assert.assertEquals("Wrong expectation", TestUtil.greet());
-        Assert.assertEquals("Hello World", TestUtil.greet());
+    public void testFailing() throws Exception {
+        Assert.assertEquals("Wrong expectation", TestUtil.greet());
+        //Assert.assertEquals("Hello World", TestUtil.greet());
     }
 
     @Test
